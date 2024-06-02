@@ -1,0 +1,64 @@
+body {
+   background-color: #7ad0bf;
+}
+.cards-container {
+    display: flex; /* активирует Flexbox для контейнера */
+    justify-content: flex-start; /* выравнивает карточки в начале контейнера */
+}
+
+.card{
+   margin-right: 30px; /* добавляет пространство между карточками */
+   width: 400px;
+   height: 700px;
+   background-color: #99c036;
+   border-radius: 20px;
+   transition: 1s;
+   border-color: #5082ff;
+   border-radius: 20px;
+   border-style: solid;
+   border-width: 10px;
+}
+
+.first-letter {
+    font-size: 60px;
+    color: blue;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+.rest-letters {
+    color: #ff0000; /* или любой другой цвет */
+}
+
+.card:hover {
+   background-color: #b2ff7f;
+   color: #ff505f;
+   width: 400px;
+   height: 750px;
+   transition: 1s;
+}
+
+.photo {
+   height: 45%;
+   padding: 20px;
+}
+.info {
+   padding: 20px;
+   height: 5%;
+}
+img {
+   position: relative;
+   left:15%;
+   border-radius: 20px;
+}
+
+a:link {
+    color: #144bff;
+}
+
+a:visited {
+    color: #8e233c;
+}
+
+a:active{
+    color: #670dbb;
+}
