@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<h1>Добро пожаловать на наш сайт!</h1>
+<h2>Cегодня в разделе "блог" посетим городок Канделярия на Тенерифе</h2>
+<img src="{{ url_for('static', filename='image/main_photo.jpg') }}" class="img-fluid" alt="Главное изображение" width="1100" height="auto">
+{% endblock %}
